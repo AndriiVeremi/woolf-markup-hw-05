@@ -691,13 +691,13 @@ a {
   border: none;
 }
 
-.madal-btn-cloge {
+.btn-close {
   fill: var(--navyblue);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.madal-btn:hover .madal-btn-cloge,
-.madal-btn:focus .madal-btn-cloge {
+.madal-btn:hover .btn-close,
+.madal-btn:focus .btn-close {
   fill: var(--white);
 }
 
@@ -713,6 +713,7 @@ a {
 b {
   display: block;
   text-align: center;
+  margin-top: 48px;
   margin-bottom: 16px;
   color: var(--navyblue);
   font-weight: 500;
@@ -757,7 +758,7 @@ b {
 
 .form-icon {
   position: absolute;
-  bottom: 11px;
+  bottom: 8px;
   left: 12px;
   fill: var(--navyblue);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -772,15 +773,27 @@ b {
 }
 
 .textarea {
-  resize: none;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  width: 100%;
   min-height: 120px;
-  padding: 12px 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  padding: 8px 16px;
   border-radius: 4px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
 }
 
 .textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
+}
+
+.textarea:focus {
+  border-color: var(--iris);
 }
 
 .label {
