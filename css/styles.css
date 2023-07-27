@@ -729,7 +729,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .form-label {
