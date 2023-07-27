@@ -729,7 +729,7 @@ a {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-label {
@@ -772,6 +772,13 @@ a {
 
 .form-field:focus-within .form-icon {
   fill: var(--iris);
+}
+
+.form-field-comment {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
 }
 
 .textarea {
