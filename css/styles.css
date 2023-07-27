@@ -774,10 +774,6 @@ a {
   fill: var(--iris);
 }
 
-.form-field-comment {
-  margin-bottom: 16px;
-}
-
 .textarea {
   font-size: 12px;
   line-height: 1.17;
@@ -851,12 +847,6 @@ a {
 .link-agreement:hover,
 .link-agreement:focus {
   color: var(--ocean);
-}
-
-.link-agreement {
-  color: var(--accent-color);
-  text-decoration: underline;
-  margin-left: 4px;
 }
 
 .form .button {
